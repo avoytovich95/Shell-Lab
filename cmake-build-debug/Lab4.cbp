@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab4">
+				<Option output="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab4/fast">
+				<Option output="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Lab4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/Makefile">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/README">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/myint.c">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/myspin.c">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/mysplit.c">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/mystop.c">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/sdriver.pl">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace01.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace02.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace03.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace04.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace05.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace06.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace07.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace08.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace09.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace10.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace11.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace12.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace13.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace14.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace15.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/trace16.txt">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/tsh.c">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/tshref">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/tshref.out">
+			<Option target="Lab4"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/darki/Documents/School/2017-Fall/CSC-322/Lab4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
