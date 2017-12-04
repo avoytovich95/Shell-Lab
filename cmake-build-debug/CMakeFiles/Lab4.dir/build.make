@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Alex/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Alex/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab
+CMAKE_SOURCE_DIR = /Users/bohdan/IdeaProjects/Shell-Lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Lab4.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Lab4.dir/flags.make
 
 CMakeFiles/Lab4.dir/myint.c.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/myint.c.o: ../myint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lab4.dir/myint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/myint.c.o   -c /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Lab4.dir/myint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/myint.c.o   -c /Users/bohdan/IdeaProjects/Shell-Lab/myint.c
 
 CMakeFiles/Lab4.dir/myint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab4.dir/myint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myint.c > CMakeFiles/Lab4.dir/myint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bohdan/IdeaProjects/Shell-Lab/myint.c > CMakeFiles/Lab4.dir/myint.c.i
 
 CMakeFiles/Lab4.dir/myint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab4.dir/myint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myint.c -o CMakeFiles/Lab4.dir/myint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bohdan/IdeaProjects/Shell-Lab/myint.c -o CMakeFiles/Lab4.dir/myint.c.s
 
 CMakeFiles/Lab4.dir/myint.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Lab4.dir/myint.c.o.provides.build: CMakeFiles/Lab4.dir/myint.c.o
 
 CMakeFiles/Lab4.dir/myspin.c.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/myspin.c.o: ../myspin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Lab4.dir/myspin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/myspin.c.o   -c /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myspin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Lab4.dir/myspin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/myspin.c.o   -c /Users/bohdan/IdeaProjects/Shell-Lab/myspin.c
 
 CMakeFiles/Lab4.dir/myspin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab4.dir/myspin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myspin.c > CMakeFiles/Lab4.dir/myspin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bohdan/IdeaProjects/Shell-Lab/myspin.c > CMakeFiles/Lab4.dir/myspin.c.i
 
 CMakeFiles/Lab4.dir/myspin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab4.dir/myspin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myspin.c -o CMakeFiles/Lab4.dir/myspin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bohdan/IdeaProjects/Shell-Lab/myspin.c -o CMakeFiles/Lab4.dir/myspin.c.s
 
 CMakeFiles/Lab4.dir/myspin.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Lab4.dir/myspin.c.o.provides.build: CMakeFiles/Lab4.dir/myspin.c.o
 
 CMakeFiles/Lab4.dir/mysplit.c.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/mysplit.c.o: ../mysplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Lab4.dir/mysplit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/mysplit.c.o   -c /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mysplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Lab4.dir/mysplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/mysplit.c.o   -c /Users/bohdan/IdeaProjects/Shell-Lab/mysplit.c
 
 CMakeFiles/Lab4.dir/mysplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab4.dir/mysplit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mysplit.c > CMakeFiles/Lab4.dir/mysplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bohdan/IdeaProjects/Shell-Lab/mysplit.c > CMakeFiles/Lab4.dir/mysplit.c.i
 
 CMakeFiles/Lab4.dir/mysplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab4.dir/mysplit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mysplit.c -o CMakeFiles/Lab4.dir/mysplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bohdan/IdeaProjects/Shell-Lab/mysplit.c -o CMakeFiles/Lab4.dir/mysplit.c.s
 
 CMakeFiles/Lab4.dir/mysplit.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Lab4.dir/mysplit.c.o.provides.build: CMakeFiles/Lab4.dir/mysplit.c.o
 
 CMakeFiles/Lab4.dir/mystop.c.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/mystop.c.o: ../mystop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Lab4.dir/mystop.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/mystop.c.o   -c /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mystop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Lab4.dir/mystop.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/mystop.c.o   -c /Users/bohdan/IdeaProjects/Shell-Lab/mystop.c
 
 CMakeFiles/Lab4.dir/mystop.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab4.dir/mystop.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mystop.c > CMakeFiles/Lab4.dir/mystop.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bohdan/IdeaProjects/Shell-Lab/mystop.c > CMakeFiles/Lab4.dir/mystop.c.i
 
 CMakeFiles/Lab4.dir/mystop.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab4.dir/mystop.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mystop.c -o CMakeFiles/Lab4.dir/mystop.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bohdan/IdeaProjects/Shell-Lab/mystop.c -o CMakeFiles/Lab4.dir/mystop.c.s
 
 CMakeFiles/Lab4.dir/mystop.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Lab4.dir/mystop.c.o.provides.build: CMakeFiles/Lab4.dir/mystop.c.o
 
 CMakeFiles/Lab4.dir/tsh.c.o: CMakeFiles/Lab4.dir/flags.make
 CMakeFiles/Lab4.dir/tsh.c.o: ../tsh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Lab4.dir/tsh.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/tsh.c.o   -c /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/tsh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Lab4.dir/tsh.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Lab4.dir/tsh.c.o   -c /Users/bohdan/IdeaProjects/Shell-Lab/tsh.c
 
 CMakeFiles/Lab4.dir/tsh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab4.dir/tsh.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/tsh.c > CMakeFiles/Lab4.dir/tsh.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bohdan/IdeaProjects/Shell-Lab/tsh.c > CMakeFiles/Lab4.dir/tsh.c.i
 
 CMakeFiles/Lab4.dir/tsh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab4.dir/tsh.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/tsh.c -o CMakeFiles/Lab4.dir/tsh.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bohdan/IdeaProjects/Shell-Lab/tsh.c -o CMakeFiles/Lab4.dir/tsh.c.s
 
 CMakeFiles/Lab4.dir/tsh.c.o.requires:
 
@@ -188,18 +188,18 @@ Lab4_OBJECTS = \
 # External object files for target Lab4
 Lab4_EXTERNAL_OBJECTS =
 
-Lab4.exe: CMakeFiles/Lab4.dir/myint.c.o
-Lab4.exe: CMakeFiles/Lab4.dir/myspin.c.o
-Lab4.exe: CMakeFiles/Lab4.dir/mysplit.c.o
-Lab4.exe: CMakeFiles/Lab4.dir/mystop.c.o
-Lab4.exe: CMakeFiles/Lab4.dir/tsh.c.o
-Lab4.exe: CMakeFiles/Lab4.dir/build.make
-Lab4.exe: CMakeFiles/Lab4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Lab4.exe"
+Lab4: CMakeFiles/Lab4.dir/myint.c.o
+Lab4: CMakeFiles/Lab4.dir/myspin.c.o
+Lab4: CMakeFiles/Lab4.dir/mysplit.c.o
+Lab4: CMakeFiles/Lab4.dir/mystop.c.o
+Lab4: CMakeFiles/Lab4.dir/tsh.c.o
+Lab4: CMakeFiles/Lab4.dir/build.make
+Lab4: CMakeFiles/Lab4.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Lab4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Lab4.dir/build: Lab4.exe
+CMakeFiles/Lab4.dir/build: Lab4
 
 .PHONY : CMakeFiles/Lab4.dir/build
 
@@ -216,6 +216,6 @@ CMakeFiles/Lab4.dir/clean:
 .PHONY : CMakeFiles/Lab4.dir/clean
 
 CMakeFiles/Lab4.dir/depend:
-	cd /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug /cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bohdan/IdeaProjects/Shell-Lab /Users/bohdan/IdeaProjects/Shell-Lab /Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug /Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug /Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Lab4.dir/depend
 

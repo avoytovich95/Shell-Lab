@@ -8,157 +8,155 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug"/>
+				<Option working_dir="/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug"/>
+				<Option working_dir="/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug"/>
+				<Option working_dir="/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab4">
-				<Option output="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Lab4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug"/>
+				<Option output="/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/../include/w32api"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Lab4/fast">
-				<Option output="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Lab4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug"/>
+				<Option output="/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Lab4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/../include/w32api"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/Makefile">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/Makefile">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/README">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/README">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myint.c">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/myint.c">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myspin.c">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/myspin.c">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mysplit.c">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/mysplit.c">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mystop.c">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/mystop.c">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/sdriver.pl">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/sdriver.pl">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace01.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace01.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace02.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace02.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace03.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace03.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace04.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace04.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace05.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace05.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace06.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace06.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace07.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace07.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace08.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace08.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace09.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace09.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace10.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace10.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace11.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace11.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace12.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace12.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace13.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace13.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace14.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace14.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace15.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace15.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/trace16.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/trace16.txt">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/tsh.c">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/tsh.c">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/tshref">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/tshref">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/tshref.out">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/tshref.out">
 			<Option target="Lab4"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/CMakeLists.txt">
+		<Unit filename="/Users/bohdan/IdeaProjects/Shell-Lab/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

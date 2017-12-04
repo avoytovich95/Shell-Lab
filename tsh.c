@@ -291,8 +291,46 @@ int builtin_cmd(char **argv)
  */
 void do_bgfg(char **argv)
 {
+    struct job_t *job;
+    char *cmd = argv[1];
+    pid_t pid;
 
-    return;
+
+    if(isdigit(cmd[0])) { //check if job is pid
+        pid = atoi(cmd);
+        job = getjobpid(jobs, pid);
+
+        //check for invalid job
+        if (job == NULL) {
+            printf("Job not found: %s", cmd);
+            return;
+
+
+        } else if (cmd[0] == '%') { //check if job is jid
+            int id = atoi(&cmd[1]);
+            job = getjobjid(jobs, id);
+
+            //check if job was found
+            if (job == NULL) {
+                printf("Job not found: %s", cmd);
+                return;
+            } else { //save pid
+                pid = job->pid;
+            }
+        }
+    }
+
+    //kill process and continue
+    kill(-pid, SIGCONT);
+
+    //if job was fg, wait for execution
+    if(strcmp("fg", argv[0]) == 0){
+        job->state = FG;
+        waitfg(job->pid);
+    } else {
+        printf("[%d], (%d), %s", job->jid, job->pid, job->cmdline);
+    }
+
 }
 
 /*

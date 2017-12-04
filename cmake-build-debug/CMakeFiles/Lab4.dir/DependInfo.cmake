@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myint.c" "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/myint.c.o"
-  "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/myspin.c" "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/myspin.c.o"
-  "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mysplit.c" "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/mysplit.c.o"
-  "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/mystop.c" "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/mystop.c.o"
-  "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/tsh.c" "/cygdrive/c/Users/Alex/Documents/School/CSC-322/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/tsh.c.o"
+  "/Users/bohdan/IdeaProjects/Shell-Lab/myint.c" "/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/myint.c.o"
+  "/Users/bohdan/IdeaProjects/Shell-Lab/myspin.c" "/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/myspin.c.o"
+  "/Users/bohdan/IdeaProjects/Shell-Lab/mysplit.c" "/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/mysplit.c.o"
+  "/Users/bohdan/IdeaProjects/Shell-Lab/mystop.c" "/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/mystop.c.o"
+  "/Users/bohdan/IdeaProjects/Shell-Lab/tsh.c" "/Users/bohdan/IdeaProjects/Shell-Lab/cmake-build-debug/CMakeFiles/Lab4.dir/tsh.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
