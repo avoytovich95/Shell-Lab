@@ -323,7 +323,21 @@ void waitfg(pid_t pid)
  */
 void sigchld_handler(int sig)
 {
-    return;
+    int stat;
+    pid_t process_id;
+
+    while((process_id = waitpid(fgpid(jobs), &stat, WNOHANG|WUNTRACED)) > 0){
+        if (WIFSTOPPED(stat)){
+            getjobpid(jobs, process_id)->state = ST;
+            int job_id = pid2jid(process_id);
+            printf("Job [%d] (%d) Stopped by singal %d\n", job_id, process_id, WSTOPSIG(stat));
+        }else if(WIFSIGNALED(stat)){
+            int job_id = pid2jid(process_id);
+            printf("Job [%d] (%d) terminated by singal %d\n", job_id, process_id, WTERMSIG(stat));
+            deletejob(jobs, process_id);
+        }else if(WIFEXITED(stat))
+            deletejob(jobs, stat);
+    }
 }
 
 /*
