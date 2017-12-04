@@ -2,7 +2,7 @@
  * tsh - A tiny shell program with job control
  *
  * <Alex Voytovich, avoytovi, >
- * <>
+ * <Bohdan Yevdokymov, byevdoky>
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -385,6 +385,11 @@ void sigchld_handler(int sig)
  */
 void sigint_handler(int sig)
 {
+    pid_t pid = fgpid(jobs);
+    if(pid != 0){
+        kill(-pid, sig);
+    }
+
     return;
 }
 
@@ -395,6 +400,11 @@ void sigint_handler(int sig)
  */
 void sigtstp_handler(int sig)
 {
+    pid_t pid = fgpid(jobs);
+    if(pid != 0){
+        kill(-pid, sig);
+    }
+
     return;
 }
 
