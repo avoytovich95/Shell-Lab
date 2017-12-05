@@ -295,8 +295,18 @@ void do_bgfg(char **argv)
     char *cmd = argv[1];
     pid_t pid;
 
+    if (cmd[0] == '%') { //check if job is jid
+        int id = atoi(&cmd[1]);
+        job = getjobjid(jobs, id);
 
-    if(isdigit(cmd[0])) { //check if job is pid
+        //check if job was found
+        if (job == NULL) {
+            printf("Job not found: %s", cmd);
+            return;
+        } else { //save pid
+            pid = job->pid;
+        }
+    } else  if(isdigit(cmd[0])) { //check if job is pid
         pid = atoi(cmd);
         job = getjobpid(jobs, pid);
 
@@ -305,23 +315,17 @@ void do_bgfg(char **argv)
             printf("Job not found: %s", cmd);
             return;
 
-
-        } else if (cmd[0] == '%') { //check if job is jid
-            int id = atoi(&cmd[1]);
-            job = getjobjid(jobs, id);
-
-            //check if job was found
-            if (job == NULL) {
-                printf("Job not found: %s", cmd);
-                return;
-            } else { //save pid
-                pid = job->pid;
-            }
         }
-    }
+    } else {
+            printf("Invalid PID or job PID!");
+            return;
+        }
 
-    //kill process and continue
-    kill(-pid, SIGCONT);
+
+        //kill process and continue
+        kill(-pid, SIGCONT);
+
+
 
     //if job was fg, wait for execution
     if(strcmp("fg", argv[0]) == 0){
