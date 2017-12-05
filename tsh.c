@@ -1,7 +1,10 @@
 /*
  * tsh - A tiny shell program with job control
  *
- * <Alex Voytovich, avoytovi>
+ * "avoytovi+byevdoky"
+ *
+ * 
+ * <Alex Voytovich,    avoytovi>
  * <Bohdan Yevdokymov, byevdoky>
  */
 #include <stdio.h>

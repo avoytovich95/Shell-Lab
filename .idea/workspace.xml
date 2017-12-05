@@ -33,11 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f879fbeb-67af-4c9f-846f-fd8437a2cd21" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/tsh" afterPath="$PROJECT_DIR$/tsh" />
       <change beforePath="$PROJECT_DIR$/tsh.c" afterPath="$PROJECT_DIR$/tsh.c" />
-      <change beforePath="$PROJECT_DIR$/tshref" afterPath="$PROJECT_DIR$/tshref" />
-      <change beforePath="$PROJECT_DIR$/tshref.c" afterPath="$PROJECT_DIR$/tshref.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,18 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tshref.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tshref.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10793">
-              <caret line="633" column="1" lean-forward="false" selection-start-line="633" selection-start-column="1" selection-end-line="633" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="myspin.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myspin.c">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,10 +95,10 @@
       <file leaf-file-name="tsh.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tsh.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="190">
+              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
-                <element signature="e#120#138#0" expanded="true" />
+                <element signature="e#153#171#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/sdriver.pl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-6422">
-              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -259,12 +243,12 @@
       <workItem from="1512356986631" duration="801000" />
       <workItem from="1512412894076" duration="4431000" />
       <workItem from="1512497093629" duration="1643000" />
-      <workItem from="1512498964199" duration="1698000" />
+      <workItem from="1512498964199" duration="2239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21089000" />
+    <option name="totallyTimeSpent" value="21630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
@@ -302,18 +286,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/tsh.c</url>
-          <line>142</line>
+          <line>145</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/tsh.c</url>
-          <line>154</line>
+          <line>157</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tshref.c</url>
-          <line>456</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="11" />
@@ -358,7 +337,7 @@
         <state relative-caret-position="7220">
           <caret line="190" column="58" lean-forward="false" selection-start-line="190" selection-start-column="58" selection-end-line="190" selection-end-column="58" />
           <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#153#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -367,9 +346,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25080">
           <caret line="660" column="1" lean-forward="false" selection-start-line="660" selection-start-column="1" selection-end-line="660" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -409,9 +386,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25080">
           <caret line="660" column="1" lean-forward="false" selection-start-line="660" selection-start-column="1" selection-end-line="660" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,7 +395,7 @@
         <state relative-caret-position="7296">
           <caret line="192" column="24" lean-forward="false" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
           <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#153#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -462,7 +437,7 @@
         <state relative-caret-position="5746">
           <caret line="338" column="34" lean-forward="false" selection-start-line="338" selection-start-column="34" selection-end-line="338" selection-end-column="34" />
           <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#153#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -504,7 +479,7 @@
         <state relative-caret-position="5960">
           <caret line="298" column="71" lean-forward="true" selection-start-line="298" selection-start-column="71" selection-end-line="298" selection-end-column="71" />
           <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#153#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -635,7 +610,7 @@
     <entry file="file://$PROJECT_DIR$/sdriver.pl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6422">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -644,18 +619,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10793">
           <caret line="633" column="1" lean-forward="false" selection-start-line="633" selection-start-column="1" selection-end-line="633" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tsh.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="190">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#153#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
