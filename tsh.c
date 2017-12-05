@@ -3,7 +3,7 @@
  *
  * "avoytovi+byevdoky"
  *
- * 
+ *
  * <Alex Voytovich,    avoytovi>
  * <Bohdan Yevdokymov, byevdoky>
  */
@@ -298,9 +298,15 @@ void do_bgfg(char **argv)
     struct job_t *job;
     char *cmd = argv[1];
     pid_t pid;
+    int id;
+
+    if (cmd == NULL){
+        printf("%s command requires PID or %%jobid argument\n", argv[0]);
+        return;
+    }
 
     if (cmd[0] == '%') { //check if job is jid
-        int id = atoi(&cmd[1]);
+        id = atoi(&cmd[1]);
         job = getjobjid(jobs, id);
 
         //check if job was found
@@ -316,12 +322,12 @@ void do_bgfg(char **argv)
 
         //check for invalid job
         if (job == NULL) {
-            printf("Job not found: %s", cmd);
+            printf("(%d): No such process\n", pid);
             return;
 
         }
     } else {
-            printf("Invalid PID or job PID!");
+            printf("%s: argument must be a PID or %%jobid\n", argv[0]);
             return;
         }
 
@@ -337,6 +343,7 @@ void do_bgfg(char **argv)
         waitfg(job->pid);
     } else {
         printf("[%d], (%d), %s", job->jid, job->pid, job->cmdline);
+        job->state = BG;
     }
 
 }
@@ -354,6 +361,7 @@ void waitfg(pid_t pid)
     if(job != NULL){
         while(pid == fgpid(jobs)){}
     }
+    return;
 }
 
 /*****************
