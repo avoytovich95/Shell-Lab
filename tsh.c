@@ -1,7 +1,7 @@
 /*
  * tsh - A tiny shell program with job control
  *
- * <Alex Voytovich, avoytovi, >
+ * <Alex Voytovich, avoytovi>
  * <Bohdan Yevdokymov, byevdoky>
  */
 #include <stdio.h>
@@ -104,19 +104,19 @@ int main(int argc, char **argv)
 
     /* Parse the command line */
     while ((c = getopt(argc, argv, "hvp")) != EOF) {
-        switch (c) {
-        case 'h':             /* print help message */
-            usage();
-	    break;
-        case 'v':             /* emit additional diagnostic info */
-            verbose = 1;
-	    break;
-        case 'p':             /* don't print a prompt */
-            emit_prompt = 0;  /* handy for automatic testing */
-	    break;
-	default:
-            usage();
-	}
+            switch (c) {
+            case 'h':             /* print help message */
+                usage();
+                break;
+            case 'v':             /* emit additional diagnostic info */
+                verbose = 1;
+                break;
+            case 'p':             /* don't print a prompt */
+                emit_prompt = 0;  /* handy for automatic testing */
+                break;
+            default:
+                usage();
+        }
     }
 
     /* Install the signal handlers */
@@ -233,11 +233,11 @@ int parseline(const char *cmdline, char **argv)
     /* Build the argv list */
     argc = 0;
     if (*buf == '\'') {
-	buf++;
-	delim = strchr(buf, '\'');
+        buf++;
+        delim = strchr(buf, '\'');
     }
     else {
-	delim = strchr(buf, ' ');
+	    delim = strchr(buf, ' ');
     }
 
     while (delim) {
@@ -302,7 +302,7 @@ void do_bgfg(char **argv)
 
         //check if job was found
         if (job == NULL) {
-            printf("Job not found: %s", cmd);
+            printf("%s: No such job\n", cmd);
             return;
         } else { //save pid
             pid = job->pid;
@@ -369,18 +369,22 @@ void sigchld_handler(int sig)
     int stat;
     pid_t process_id;
 
-    while((process_id = waitpid(fgpid(jobs), &stat, WNOHANG|WUNTRACED)) > 0){
+    while ((process_id = waitpid(fgpid(jobs), &stat, WNOHANG|WUNTRACED)) > 0) {
         if (WIFSTOPPED(stat)){
             getjobpid(jobs, process_id)->state = ST;
+            int jid = pid2jid(process_id);
+            printf("Job [%d] (%d) Stopped by signal %d\n", jid, process_id, WSTOPSIG(stat));
+        }
+        else if (WIFSIGNALED(stat)){
             int job_id = pid2jid(process_id);
-            printf("Job [%d] (%d) Stopped by singal %d\n", job_id, process_id, WSTOPSIG(stat));
-        }else if(WIFSIGNALED(stat)){
-            int job_id = pid2jid(process_id);
-            printf("Job [%d] (%d) terminated by singal %d\n", job_id, process_id, WTERMSIG(stat));
+            printf("Job [%d] (%d) terminated by signal %d\n", job_id, process_id, WTERMSIG(stat));
             deletejob(jobs, process_id);
-        }else if(WIFEXITED(stat))
-            deletejob(jobs, stat);
+        }
+        else if (WIFEXITED(stat))
+            deletejob(jobs, process_id);
+
     }
+    return;
 }
 
 /*
