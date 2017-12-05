@@ -33,7 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f879fbeb-67af-4c9f-846f-fd8437a2cd21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsh" afterPath="$PROJECT_DIR$/tsh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tshref" afterPath="$PROJECT_DIR$/tshref" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsh.c" afterPath="$PROJECT_DIR$/tsh.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -95,10 +96,22 @@
       <file leaf-file-name="tsh.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tsh.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="297" column="24" lean-forward="false" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
+            <state relative-caret-position="402">
+              <caret line="192" column="24" lean-forward="false" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
               <folding>
                 <element signature="e#122#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tshref.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tshref.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="757">
+              <caret line="660" column="1" lean-forward="false" selection-start-line="660" selection-start-column="1" selection-end-line="660" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +123,8 @@
     <findStrings>
       <find>pid_t</find>
       <find>job_t</find>
+      <find>not fou</find>
+      <find>command not</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,6 +135,7 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ref.c" />
+        <option value="$PROJECT_DIR$/tshref.c" />
         <option value="$PROJECT_DIR$/tsh.c" />
       </list>
     </option>
@@ -205,12 +221,12 @@
       <updated>1511798297585</updated>
       <workItem from="1511798299221" duration="12516000" />
       <workItem from="1512356986631" duration="801000" />
-      <workItem from="1512412894076" duration="3661000" />
+      <workItem from="1512412894076" duration="4431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16978000" />
+    <option name="totallyTimeSpent" value="17748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="840" height="952" extended-state="0" />
@@ -463,10 +479,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tshref.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="660" column="1" lean-forward="false" selection-start-line="660" selection-start-column="1" selection-end-line="660" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tsh.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="297" column="24" lean-forward="false" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
+        <state relative-caret-position="402">
+          <caret line="192" column="24" lean-forward="false" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
           <folding>
             <element signature="e#122#140#0" expanded="true" />
           </folding>
