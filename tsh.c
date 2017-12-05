@@ -179,8 +179,7 @@ void eval(char *cmdline)
         sigaddset(&signal_mask, SIGCHLD);
         sigprocmask(SIG_BLOCK, &signal_mask, NULL);
         //fork
-        process_id = fork();
-        if(process_id < 0)
+        if((process_id = fork()) < 0)
             unix_error("forking error");
 
         //child
